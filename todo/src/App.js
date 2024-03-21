@@ -25,7 +25,7 @@ const App = () => {
       <h1 className=" text-4xl m-16 font-bold">Simple Todo App</h1>
       <div className="p-6">
         <input
-          className=" bg-slate-100 rounded-md p-4 m-4"
+          className=" bg-slate-100 rounded-md py-4 px-10 m-2"
           type="text"
           value={task}
           onChange={(e) => {
