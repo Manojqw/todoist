@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Im
 
 import Pricing from "./pricing";
 import Home from "./home";
+import Todo1 from "./todo1";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/todo" element={<Todo />} />
+        <Route path="/todo1" element={<Todo1 />} />
         <Route path="/pricing" element={<Pricing />} />
       </Routes>
     </Router>

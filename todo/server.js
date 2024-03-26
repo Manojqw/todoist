@@ -34,7 +34,7 @@ app.post("/create-checkout-session", async (req, res) => {
     const sessionId = session.id;
     console.log("sessionId: ", sessionId);
 
-    res.json({ "http://localhost:3000/dashboard": session.url });
+    res.json({ "http://localhost:3000/todo": session.url });
   } catch (e) {
     res.status(500).json({ error: e.message });
   }

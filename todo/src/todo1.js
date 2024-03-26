@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-const Todo = () => {
+const Todo1 = () => {
   const [tasks, setTasks] = useState([]);
   const [task, setTask] = useState("");
-  const maxTasks = 5; // Maximum number of tasks allowed
+  const maxTasks = 20; // Maximum number of tasks allowed
 
   const addTasks = () => {
     if (tasks.length >= maxTasks) {
@@ -76,4 +76,4 @@ const Todo = () => {
   );
 };
 
-export default Todo;
+export default Todo1;
